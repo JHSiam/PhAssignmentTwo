@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* *{
+    border: 1px solid red;
+} */
+body{
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(17, 17, 17)
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px auto;
+    width:80% 
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.nav-header{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 2.25rem;
+font-weight: 800;
+line-height: 120%;
+
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 3px;
+
+    box-sizing: border-box;
+    border: 0.06rem solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.44rem;
+
+}
+.navitem{
+    list-style: none;
+    margin-right: 0px;
+    width: 5.75rem;
+    height: 2.38rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-link{
+    text-decoration: none;
+    
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.one{
+    border-radius: 2.88rem;
+    background: rgb(230, 83, 60);
+}
+
+.menu-container{
+    display: none;
+}
+
+
+/* Responsive design */
+
+@media  screen and (max-width: 576px) {
+    nav{
+        display: none;
+    }
+    .menu-bars{
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .menu-container{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    
+}
