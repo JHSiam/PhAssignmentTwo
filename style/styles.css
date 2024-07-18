@@ -7,6 +7,7 @@ body{
     margin: 0px;
     width: 100%;
     background-color: rgb(17, 17, 17)
+    /* background-color: brown; */
 }
 header{
     display: flex;
@@ -72,6 +73,167 @@ ul{
 }
 
 
+/* 1st page */
+
+.first-page{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 200px;
+    margin: 0px auto;
+    width:80% 
+    
+}
+.first-header{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 4.88rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+}
+.first-dis{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.03rem;
+
+}
+
+.btn{
+
+    height: 3.38rem;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.13rem;
+font-weight: 600;
+line-height: 1.38rem;
+letter-spacing: 0rem;
+
+
+border-radius: 2.63rem;
+
+background: rgb(230, 83, 60);
+
+padding: 16px 40px;
+}
+#btn1{
+    box-sizing: border-box;
+border: 0.06rem solid rgb(255, 255, 255);
+border-radius: 2.63rem;
+
+    background:none
+    
+}
+
+
+
+
+
+.info-container{
+    width: 12.06rem;
+height: 6.13rem;
+
+box-sizing: border-box;
+border: 0.06rem solid rgba(255, 255, 255, 0.1);
+border-radius: 0.75rem;
+
+backdrop-filter: blur(1.25rem);
+background: rgba(255, 255, 255, 0.1);
+
+margin-top: -150px;
+margin-left: -120px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+
+}
+.ball{
+    width: 2.5rem;
+height: 2.5rem;
+background: rgb(230, 83, 60);
+border-radius: 50%;
+}
+.info-value{
+    color: rgb(250, 250, 249);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 900;
+line-height: 1.5rem;
+letter-spacing: 0.02rem;
+
+}
+.Video-tutorial{
+    color: rgba(239, 237, 232, 0.65);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.03rem;
+margin-top: -15px;
+}
+
+
+/* 2nd info container */
+
+.info-container2{
+    width: 12.06rem;
+height: 6.13rem;
+
+box-sizing: border-box;
+border: 0.06rem solid rgba(255, 255, 255, 0.1);
+border-radius: 0.75rem;
+
+backdrop-filter: blur(1.25rem);
+background: rgba(255, 255, 255, 0.1);
+
+margin-top: -150px;
+margin-left: -120px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+
+
+
+    margin-top: -400px;
+    margin-left: 230px;
+}
+/* .info-text2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+} */
+.info-value2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2.5rem;
+font-weight: 900;
+line-height: 2.5rem;
+letter-spacing: 0.06rem;
+/* margin-bottom: -10px; */
+}
+.Video-tutorial2{
+    color: rgba(239, 237, 232, 0.65);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.03rem;
+    margin-top: -35px;
+}
+
+
+
+
 /* Responsive design */
 
 @media  screen and (max-width: 576px) {
@@ -88,6 +250,37 @@ ul{
         justify-items: center;
         align-items: center;
         
+    }
+
+    /* First page */
+    .first-page{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .first-header{
+        font-size: 2.25rem;
+    }
+    .btn-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 16px 30px;
+
+    }
+    .club{
+        display: none;
+    }
+    #two{
+        margin-top: -340px;
+        margin-left: -10px;
+    }
+    .info-container2{
+        margin-top: -300px;
+        margin-left: 180px;
     }
     
 }
