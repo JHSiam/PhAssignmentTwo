@@ -338,6 +338,93 @@ height: 19.5rem;
 border-radius: 1.13rem;
 }
 
+/* team-page */
+
+.team-page{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-heading{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.team-dis{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.88rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.02rem;
+text-align: center;
+
+}
+.team-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    border-radius: 1.13rem;
+
+    background: rgba(255, 255, 255, 0.1);
+}
+.team-card{
+    width: 20.42rem;
+    height: 17rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.13rem;
+
+}
+.name{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.2rem;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+/* text-align: end; */
+margin-top: 220px;
+margin-left: 20px;
+}
+.position{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.88rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.02rem;
+/* text-align: left; */
+margin-top: -25px;
+margin-left: 20px;
+}
+#name1{
+    background-image: url('../images/trainer1.png');
+}
+#name2{
+    background-image: url('../images/trainer2.png');
+}
+#name3{
+    background-image: url('../images/trainer3.png');
+}
+#name4{
+    background-image: url('../images/trainer4.png');
+}
+#name5{
+    background-image: url('../images/trainer5.png');
+}
+#name6{
+    background-image: url('../images/trainer6.png');
+}
+
 
 
 
