@@ -232,6 +232,72 @@ letter-spacing: 0.03rem;
 }
 
 
+/* 3rd page */
+
+.third-page{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.habbit-heading{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.habbit-dis{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.88rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.02rem;
+text-align: center;
+}
+.skill-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img{
+    border: 5px solid rgb(26,26,26);
+    border-radius: 50%;
+}
+.skill-heading{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.13rem;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+}
+.skill-dis{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.88rem;
+font-weight: 400;
+line-height: 1.13rem;
+letter-spacing: 0.02rem;
+text-align: center;
+margin-top: -15px;
+}
+
+
+
+
 
 
 /* Responsive design */
@@ -281,6 +347,14 @@ letter-spacing: 0.03rem;
     .info-container2{
         margin-top: -300px;
         margin-left: 180px;
+    }
+
+    /* 3rd-page */
+    .third-page{
+        margin-top: 450px;
+    }
+    .skill-container{
+        flex-direction: column;
     }
     
 }
