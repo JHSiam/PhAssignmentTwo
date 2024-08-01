@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
  
 /* *{
     border: 1px solid red;
@@ -95,6 +96,15 @@ ul {
     font-family: Inter;
     font-size: 4.88rem;
     font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.shape{
+    color: rgb(255, 255, 255);
+    font-family: Miama;
+    font-size: 7.88rem;
+    /* font-weight: 900; */
+    font-weight: 100;
     line-height: 120%;
     letter-spacing: 0%;
 }
@@ -465,7 +475,7 @@ ul {
 /* footer */
 
 footer{
-    height: 400px;
+    height: 360px;
     margin: 0px;
     background: rgba(255, 255, 255, 0.1);
     /* margin-bottom: -60px; */
@@ -564,6 +574,15 @@ text-align: center;
     .first-header {
         font-size: 2.25rem;
     }
+    .shape{
+        color: rgb(255, 255, 255);
+        font-family: Miama;
+        font-size: 6rem;
+        /* font-weight: 900; */
+        font-weight: 100;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
 
     .btn-container {
         display: flex;
@@ -653,7 +672,7 @@ text-align: center;
     /* footer */
 
     footer{
-        height: 880px;
+        height: 850px;
     }
 
     .footer-container{
