@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
- 
+
 /* *{
     border: 1px solid red;
 }   */
@@ -8,7 +8,7 @@ body {
     margin: 0px;
     width: 100%;
     background-color: rgb(17, 17, 17)
-    /* background-color: brown; */
+        /* background-color: brown; */
 }
 
 header {
@@ -97,15 +97,16 @@ ul {
     font-size: 4.88rem;
     font-weight: 900;
     line-height: 120%;
-    letter-spacing: 0%;
+    letter-spacing: 20%;
 }
-.shape{
+
+.shape {
     color: rgb(255, 255, 255);
     font-family: Miama;
     font-size: 7.88rem;
     /* font-weight: 900; */
     font-weight: 100;
-    line-height: 120%;
+    line-height: 50%;
     letter-spacing: 0%;
 }
 
@@ -358,120 +359,130 @@ ul {
     text-align: left;
 }
 
-.run-img {
+.run-img-desktop {
     width: 22.88rem;
     height: 19.5rem;
     border-radius: 1.13rem;
+
+}
+
+.run-img {
+    display: none;
 }
 
 /* BMI Calculator */
 
-.bmi-heading{
+.bmi-heading {
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 3rem;
-font-weight: 900;
-line-height: 120%;
-letter-spacing: 0%;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
     text-align: center;
 }
-.bmi-dis{
+
+.bmi-dis {
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 0.88rem;
-font-weight: 400;
-line-height: 1.5rem;
-letter-spacing: 0.02rem;
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
     text-align: center;
 
     margin-top: -30px;
     margin-bottom: 30px;
 }
 
-.bmi-container{
+.bmi-container {
     background: rgb(34, 34, 34);
 }
 
-.bmi-card{
+.bmi-card {
     width: 80%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
-.bmi-chart{
+
+.bmi-chart {
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 1.75rem;
-font-weight: 900;
-line-height: 120%;
-letter-spacing: 0%;
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
-.bmi-chart-dis{
+.bmi-chart-dis {
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 0.88rem;
-font-weight: 400;
-line-height: 1.5rem;
-letter-spacing: 0.02rem;
-margin-top: -20px;
-margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
-.bmi-calculator{
+
+.bmi-calculator {
     display: flex;
     flex-direction: column;
 }
-.bmi-input{
+
+.bmi-input {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 3px solid rgb(57, 57, 57);
     border-collapse: collapse;
     padding: 10px;
 
-  }
+}
 
-  th{
+th {
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 1rem;
-font-weight: 500;
-line-height: 120%;
-letter-spacing: 0%;
-text-align: left;
-  }
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
-  td{
+td {
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 0.88rem;
-font-weight: 400;
-line-height: 120%;
-letter-spacing: 0%;
-  }
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
 
-.inp{
+.inp {
     width: 22rem;
-height: 3rem;
-color: rgb(176, 176, 176);
-font-family: Inter;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.38rem;
-letter-spacing: 0rem;
-border-radius: 0.5rem;
+    height: 3rem;
+    color: rgb(176, 176, 176);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.38rem;
+    letter-spacing: 0rem;
+    border-radius: 0.5rem;
 
-background: rgba(255, 255, 255, 0.1);
-/* margin: auto; */
-border: none;
-padding: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    /* margin: auto; */
+    border: none;
+    padding: 5px;
 
-}  
-
-#sex{
+}
+#sex {
     width: 22.7rem;
     height: 3.6rem;
 
@@ -480,49 +491,107 @@ padding: 5px;
 
 
 
-.activity{
+
+.activity {
     width: 46rem;
-height: 3.6rem;
-color: rgba(255, 255, 255, 0.6);
-font-family: Inter;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.38rem;
-letter-spacing: 0rem;
+    height: 3.6rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.38rem;
+    letter-spacing: 0rem;
 
-border-radius: 0.5rem;
+    border-radius: 0.5rem;
 
-background: rgba(255, 255, 255, 0.1);
-margin-top: 10px;
-border: none;
-padding: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
 
 }
 
-.btn-calculate{
+.btn-calculate {
     width: 14rem;
-height: 3.38rem;
+    height: 3.38rem;
 
-color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 1.13rem;
-font-weight: 600;
-line-height: 1.38rem;
-letter-spacing: 0rem;
-border-radius: 2.63rem;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.13rem;
+    font-weight: 600;
+    line-height: 1.38rem;
+    letter-spacing: 0rem;
+    border-radius: 2.63rem;
 
-background: rgb(230, 83, 60);
+    background: rgb(230, 83, 60);
 
-margin-top: 20px;
-margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
+
+/* Diet page */
+
+.diet-header{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.diet-dis{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+.diet-container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.diet-search{
+    width: 40%;
+    padding: 10px;
+    /* margin: 0 10px; */
+    font-size: 1em;
+    border-radius: 2.6rem;
+    border: 1px solid #ccc;
+
+    margin-bottom: 40px;
+    
+}
+.search-img{
+    width: 40px;
+    height: 40px;
+    margin-top: -85px;
+    margin-left: 420px;
+    margin-bottom: 40px;
+}
+
+.diet-table{
+    width: 100%;
+}
+
 
 
 
 /* team-page */
 
 .team-page {
-    width: 80%;
+    /* width: 100%; */
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -553,11 +622,14 @@ margin-bottom: 50px;
 }
 
 .team-container {
-    width: 96.5%;
+    /* width: 96.5%; */
+    width: 80%;
     display: grid;
-    gap: 30px;
+    /* gap: 20px; */
+    /* row-gap: 80px; */
     grid-template-columns: repeat(3, 1fr);
-    padding: 20px;
+    justify-items: center;
+    /* padding: 20px; */
     border-radius: 1.13rem;
     background: rgba(255, 255, 255, 0.1);
 
@@ -570,7 +642,10 @@ margin-bottom: 50px;
     background-position: center;
     border-radius: 1.13rem;
     /* margin-left: 30px; */
-    margin: 10px auto;
+    /* margin: 10px auto; */
+    /* margin: auto; */
+    /* margin-left: 1px; */
+
 
 }
 
@@ -600,26 +675,39 @@ margin-bottom: 50px;
 
 #name1 {
     background-image: url('../images/trainer1.png');
+    margin-left: 35px;
+    margin-top: 55px;
 }
 
 #name2 {
     background-image: url('../images/trainer2.png');
+    margin-top: 55px;
 }
 
 #name3 {
     background-image: url('../images/trainer3.png');
+    margin-right: 35px;
+    margin-top: 55px;
 }
 
 #name4 {
     background-image: url('../images/trainer4.png');
+    margin-left: 35px;
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 #name5 {
     background-image: url('../images/trainer5.png');
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 #name6 {
     background-image: url('../images/trainer6.png');
+    margin-right: 35px;
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 .team-container-mobile {
@@ -629,13 +717,14 @@ margin-bottom: 50px;
 
 /* footer */
 
-footer{
+footer {
     height: 360px;
     margin: 0px;
     background: rgba(255, 255, 255, 0.1);
     /* margin-bottom: -60px; */
 }
-.footer-container{
+
+.footer-container {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -644,54 +733,54 @@ footer{
     gap: 300px;
     border-bottom: 3px solid rgb(49, 49, 49);
 }
-.foot-start{
-    /* width: 200px; */
-}
 
-.foot-header{
+.foot-header {
     color: rgb(230, 83, 60);
-font-family: Inter;
-font-size: 4.38rem;
-font-weight: 800;
-line-height: 120%;
-letter-spacing: 0%;
+    font-family: Inter;
+    font-size: 4.38rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
 
 }
-.foot-dis{
+
+.foot-dis {
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 0.88rem;
-font-weight: 400;
-line-height: 1.5rem;
-letter-spacing: 0.02rem;
-margin-top: -30px;
+    font-family: Inter;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    margin-top: -30px;
 }
-.start-heading{
+
+.start-heading {
     width: 140px;
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 1.5rem;
-font-weight: 700;
-line-height: 120%;
-letter-spacing: 0%;
-}
-.start-info{
-    color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 1rem;
-font-weight: 400;
-line-height: 120%;
-letter-spacing: 0%;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
-.end-line{
+.start-info {
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 1.25rem;
-font-weight: 400;
-line-height: 1.5rem;
-letter-spacing: 0.02rem;
-text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.end-line {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
 }
 
 
@@ -729,13 +818,14 @@ text-align: center;
     .first-header {
         font-size: 2.25rem;
     }
-    .shape{
+
+    .shape {
         color: rgb(255, 255, 255);
         font-family: Miama;
         font-size: 6rem;
         /* font-weight: 900; */
         font-weight: 100;
-        line-height: 120%;
+        line-height: 70%;
         letter-spacing: 0%;
     }
 
@@ -747,7 +837,8 @@ text-align: center;
     }
 
     .btn {
-        font-size: 1rem;
+        width: 100%;
+        font-size: 0.9rem;
         padding: 16px 30px;
 
     }
@@ -789,24 +880,46 @@ text-align: center;
         flex-direction: column;
     }
 
+    .run-img-desktop {
+        display: none;
+    }
+
     .run-img {
+        display: block;
         width: 17.94rem;
         height: 10.63rem;
+        border-radius: 1.13rem;
     }
+
     /* Bmi Calculator */
 
-    .bmi-card{
+    .bmi-card {
         flex-direction: column;
     }
-    .inp{
-       width: 9.5rem;
+
+    .inp {
+        width: 9.5rem;
     }
-    #sex{
+
+    #sex {
         width: 10.1rem;
 
     }
-    .activity{
+
+    .activity {
         width: 21rem;
+    }
+
+    /* Diet page */
+
+    .diet-search{
+        width: 12rem;
+    }
+
+    .search-img{
+        width: 38px;
+        height: 40px;
+        margin-left: 135px;
     }
 
     /* team page */
@@ -835,17 +948,37 @@ text-align: center;
         letter-spacing: 0%;
         margin-bottom: 40px;
     }
-    .team-card{
+
+    .team-card {
         width: 19.56rem;
+    }
+
+
+    #name2 {
+        margin: auto;
+
+    }
+
+    #name3 {
+
+        margin: auto;
+    }
+
+    #name5 {
+        margin: auto;
+    }
+
+    #name6 {
+        margin: auto;
     }
 
     /* footer */
 
-    footer{
+    footer {
         height: 850px;
     }
 
-    .footer-container{
+    .footer-container {
         flex-direction: column;
         gap: 10px;
         /* justify-items: left; */
