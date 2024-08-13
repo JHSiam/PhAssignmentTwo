@@ -623,13 +623,13 @@ td {
 
 .team-container {
     /* width: 96.5%; */
-    width: 80%;
+    /* width: 80%; */
     display: grid;
-    /* gap: 20px; */
+    gap: 55px;
     /* row-gap: 80px; */
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    /* padding: 20px; */
+    /* justify-items: center; */
+    padding: 55px;
     border-radius: 1.13rem;
     background: rgba(255, 255, 255, 0.1);
 
@@ -675,39 +675,39 @@ td {
 
 #name1 {
     background-image: url('../images/trainer1.png');
-    margin-left: 35px;
-    margin-top: 55px;
+    /* margin-left: 35px;
+    margin-top: 55px; */
 }
 
 #name2 {
     background-image: url('../images/trainer2.png');
-    margin-top: 55px;
+    /* margin-top: 55px; */
 }
 
 #name3 {
     background-image: url('../images/trainer3.png');
-    margin-right: 35px;
-    margin-top: 55px;
+    /* margin-right: 35px;
+    margin-top: 55px; */
 }
 
 #name4 {
     background-image: url('../images/trainer4.png');
-    margin-left: 35px;
+    /* margin-left: 35px;
     margin-top: 55px;
-    margin-bottom: 55px;
+    margin-bottom: 55px; */
 }
 
 #name5 {
     background-image: url('../images/trainer5.png');
-    margin-top: 55px;
-    margin-bottom: 55px;
+    /* margin-top: 55px;
+    margin-bottom: 55px; */
 }
 
 #name6 {
     background-image: url('../images/trainer6.png');
-    margin-right: 35px;
+    /* margin-right: 35px;
     margin-top: 55px;
-    margin-bottom: 55px;
+    margin-bottom: 55px; */
 }
 
 .team-container-mobile {
